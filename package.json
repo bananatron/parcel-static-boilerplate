@@ -1,0 +1,14 @@
+{
+  "name": "parcel-static",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel views/index.html",
+    "deploy": "parcel build views/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

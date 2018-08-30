@@ -1,0 +1,18 @@
+{
+  "short_name": "Parcel Boilerplate",
+  "name": "Parcel Boilerplate",
+  "theme_color": "#000000",
+  "background_color": "#ead92d",
+  "lang": "en-US",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "assets/favicon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "start_url": "index.html"
+}
