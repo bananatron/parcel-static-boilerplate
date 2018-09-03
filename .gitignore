@@ -31,3 +31,4 @@ Temporary Items
 # Parcel
 .cache
 dist
+node_modules
