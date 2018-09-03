@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel views/index.html",
-    "deploy": "parcel build views/index.html"
+    "build": "parcel build views/index.html --no-cache --out-dir docs"
   },
   "dependencies": {},
   "devDependencies": {

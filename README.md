@@ -1,7 +1,6 @@
-# Static Site Boilerplate
+# Pacel Github Pages Boilerplate
 
-For hosting static landing pages quickly, using [parcel.js](https://parceljs.org/).
-
+For hosting static landing pages quickly, using [parcel.js](https://parceljs.org/) on Github pages.
 
 
 Quickstart
@@ -23,10 +22,9 @@ Quickstart
 -----
 To 'compile' the files and continuously watch (in development mode), run `npm start` in the root directory. To stop the auto-reload listener, use `CTRL + C`.
 
-This will build a `dist` folder/directory where the compiled markup, styles, and assets live. The `dist` directory will be used as the source for the deploy process below.
-
+This will build a `dist` folder/directory where the compiled markup, styles, and assets live.
 
 
 🚢 Deploy
 -----
-Host the `dist` folder on github pages or elsewhere (you might want to remove it from the `.gitignore` in order to do so).
+Run `npm run build` to generate a `docs` folder with the parcel output. Host the `docs` folder on github pages or elsewhere. If hosting outside of github, you might want to add it to the gitignore and/or change the output file in the `package.json`.
